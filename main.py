@@ -12,7 +12,7 @@ loginbox.send_keys('growth_user7')
 loginbutton = driver.find_element_by_xpath('//*[@id="login"]')
 loginbutton.click()
 
-time.sleep(2)
+time.sleep(3)
 
 # Type password
 passwordbox = driver.find_element_by_xpath('//*[@id="password"]')
